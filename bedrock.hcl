@@ -77,6 +77,10 @@ train {
     N_ESTIMATORS         = "100"
     OUTPUT_MODEL_NAME    = "lgb_model.pkl"
   }
+
+  secrets = [
+    "SECRET_KEY"
+  ]
 }
 
 serve {
